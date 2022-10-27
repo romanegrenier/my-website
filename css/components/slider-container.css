@@ -1,0 +1,64 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Make the image to responsive */
+.slider-container img {
+  width: 100%;
+  height: auto;
+}
+
+
+.slider-container:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.slider-container p {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: yellow;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.fa-user:hover {
+  color: red;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: lightyellow;
+}
+}
+
+@media (max-width: 1200px) {
+  .slider-container p {
+    font-size: 70px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 960px) {
+  .slider-container p {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .slider-container p {
+    font-size: 50px;
+  margin-top: 50px;
+}
+}

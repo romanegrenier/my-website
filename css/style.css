@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bebas+Neue&family=Montserrat+Subrayada&family=Nabla&display=swap');
+@import url("components/container.css");
+@import url("components/btn-yellow.css");
+@import url("components/banner.css");
+@import url("componenets/header.css");
+@import url("components/onglets.css");
+@import url("components/logo.css");
+@import url("components/slider-container.css");
+@import url("components/card-menu.css");
+@import url("components/placeholder-content.css");
+@import url("components/carousel.css");
+
+h1 {
+	font-family: 'Nabla', cursive;
+	font-size: 100px;
+}
+
+h2 {
+	color: #FFD621;
+
+}
+
+p { color : #FFD621
+
+}
+
+body {
+	margin: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+

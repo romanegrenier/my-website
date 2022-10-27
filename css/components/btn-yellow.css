@@ -1,0 +1,14 @@
+.btn-yellow {
+	text-decoration: none;
+	background-color: darkgrey;
+	padding: 8px 24px;
+	color: yellow;
+	border-radius: 6px;
+}
+
+.btn-yellow:hover {
+    background-color: darkgrey;
+	transition: 0.5s;
+	color: yellow;
+
+}

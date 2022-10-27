@@ -1,0 +1,51 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+.container h1 {
+	margin-bottom: 1px;
+	margin-top: 5px;
+
+}
+
+.container h2 {
+	margin-bottom: 1px;
+	margin-top: 1px;
+
+}
+
+.container p {
+	margin-bottom: 15px;
+	margin-top: 2px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+ 
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  #site-title{
+  	font-size: 80px;
+  }
+  
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  #site-title{
+  	font-size: 50px;
+  }
+}
